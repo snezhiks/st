@@ -1,0 +1,214 @@
+2026-03-25 15:06:09,616 | INFO | unzip_file | Архив data.zip распакован в data
+2026-03-25 15:06:09,650 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:09,662 | INFO | create_cschema | Схема banking успешно создана
+2026-03-25 15:06:09,663 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:09,697 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:09,711 | INFO | sql2sql | Файл ddl_dml.sql успешно выполнен
+2026-03-25 15:06:09,712 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:09,744 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:09,788 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:06:09,788 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:09,885 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:06:09,896 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_01032021.xlsx.backup
+2026-03-25 15:06:09,928 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:09,935 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:06:09,935 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,073 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,077 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:06:10,078 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,106 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,113 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:06:10,114 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,148 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,155 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:06:10,155 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,187 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,197 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:06:10,197 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,266 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:06:10,311 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_01032021.xlsx.backup
+2026-03-25 15:06:10,343 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,351 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:06:10,351 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,383 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,390 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:06:10,391 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,421 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,428 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:06:10,429 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,460 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,465 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:06:10,466 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,497 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:10,507 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:06:10,508 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:10,925 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:06:10,936 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_01032021.txt.backup
+2026-03-25 15:06:10,968 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,014 | INFO | transfer_data_to_main_table | Перенесено 15650 строк из tmp_transactions в transactions
+2026-03-25 15:06:11,015 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,046 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,191 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:06:11,191 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,224 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,251 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
+2026-03-25 15:06:11,252 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,284 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,289 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:06:11,289 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,343 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:06:11,353 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_02032021.xlsx.backup
+2026-03-25 15:06:11,383 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,391 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:06:11,392 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,423 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,428 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:06:11,428 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,459 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,465 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:06:11,465 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,495 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,499 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:06:11,499 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,530 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,535 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:06:11,535 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,601 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:06:11,612 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_02032021.xlsx.backup
+2026-03-25 15:06:11,643 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,650 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:06:11,650 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,683 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,690 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:06:11,690 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,721 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,728 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:06:11,728 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,868 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,878 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:06:11,878 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:11,911 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:11,912 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:06:11,912 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,361 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:06:12,372 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_02032021.txt.backup
+2026-03-25 15:06:12,404 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:12,461 | INFO | transfer_data_to_main_table | Перенесено 15686 строк из tmp_transactions в transactions
+2026-03-25 15:06:12,461 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,492 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:12,641 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:06:12,642 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,671 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:12,699 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
+2026-03-25 15:06:12,700 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,731 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:12,750 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:06:12,750 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,805 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:06:12,815 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_03032021.xlsx.backup
+2026-03-25 15:06:12,958 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:12,963 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:06:12,964 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:12,996 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,001 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:06:13,001 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,145 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,152 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:06:13,152 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,296 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,302 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:06:13,302 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,341 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,345 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:06:13,345 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,407 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:06:13,417 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_03032021.xlsx.backup
+2026-03-25 15:06:13,447 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,453 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:06:13,453 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,483 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,489 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:06:13,490 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,636 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,642 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:06:13,642 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,787 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,793 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:06:13,794 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:13,829 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:13,831 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:06:13,831 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:14,271 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:06:14,282 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_03032021.txt.backup
+2026-03-25 15:06:14,312 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:14,375 | INFO | transfer_data_to_main_table | Перенесено 15780 строк из tmp_transactions в transactions
+2026-03-25 15:06:14,375 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:14,405 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:14,553 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:06:14,553 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:06:14,586 | INFO | connection_postgres | Вы подключились к: ('PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35221, 64-bit',) 
+2026-03-25 15:06:14,617 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
+2026-03-25 15:06:14,618 | INFO | close_connection_postgres | Соединение с БД закрыто
+2026-03-25 15:07:49,796 | INFO | unzip_file | Архив data.zip распакован в data
+2026-03-25 15:07:49,843 | INFO | create_cschema | Схема banking успешно создана
+2026-03-25 15:07:50,023 | INFO | sql2sql | Файл ddl_dml.sql успешно выполнен
+2026-03-25 15:07:50,062 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:07:50,152 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:07:50,161 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_01032021.xlsx.backup
+2026-03-25 15:07:50,201 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:07:50,239 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:07:50,278 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:07:50,429 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:07:50,468 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:07:50,538 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:07:50,548 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_01032021.xlsx.backup
+2026-03-25 15:07:50,590 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:07:50,627 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:07:50,663 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:07:50,700 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:07:50,737 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:07:51,152 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:07:51,163 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_01032021.txt.backup
+2026-03-25 15:07:51,239 | INFO | transfer_data_to_main_table | Перенесено 15650 строк из tmp_transactions в transactions
+2026-03-25 15:07:51,408 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:07:51,465 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
+2026-03-25 15:07:51,497 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:07:51,550 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:07:51,560 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_02032021.xlsx.backup
+2026-03-25 15:07:51,595 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:07:51,628 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:07:51,663 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:07:51,699 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:07:51,734 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:07:51,797 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:07:51,807 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_02032021.xlsx.backup
+2026-03-25 15:07:51,844 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:07:51,880 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:07:51,916 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:07:51,956 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:07:51,985 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:07:52,427 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:07:52,437 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_02032021.txt.backup
+2026-03-25 15:07:52,527 | INFO | transfer_data_to_main_table | Перенесено 15686 строк из tmp_transactions в transactions
+2026-03-25 15:07:52,702 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:07:52,761 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
+2026-03-25 15:07:52,794 | INFO | create_scd2_structure | SCD2 структура для passport_blacklist создана успешно
+2026-03-25 15:07:52,851 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_passport_blacklist
+2026-03-25 15:07:52,859 | INFO | move_to_archive | Файл перемещен в архив: archive\passport_blacklist_03032021.xlsx.backup
+2026-03-25 15:07:52,895 | INFO | create_new_rows | banking.tmp_passport_blacklist_new_rows создана успешно
+2026-03-25 15:07:52,932 | INFO | create_deleted_rows | banking.tmp_passport_blacklist_deleted_rows создана успешно
+2026-03-25 15:07:53,080 | INFO | create_updated_rows | banking.tmp_passport_blacklist_updated_rows создана успешно
+2026-03-25 15:07:53,119 | INFO | update_table_hist |  В banking.passport_blacklist_hist добавлены строчки
+2026-03-25 15:07:53,155 | INFO | create_scd2_structure | SCD2 структура для terminals создана успешно
+2026-03-25 15:07:53,216 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_terminals
+2026-03-25 15:07:53,225 | INFO | move_to_archive | Файл перемещен в архив: archive\terminals_03032021.xlsx.backup
+2026-03-25 15:07:53,263 | INFO | create_new_rows | banking.tmp_terminals_new_rows создана успешно
+2026-03-25 15:07:53,308 | INFO | create_deleted_rows | banking.tmp_terminals_deleted_rows создана успешно
+2026-03-25 15:07:53,347 | INFO | create_updated_rows | banking.tmp_terminals_updated_rows создана успешно
+2026-03-25 15:07:53,380 | INFO | update_table_hist |  В banking.terminals_hist добавлены строчки
+2026-03-25 15:07:53,411 | INFO | create_scd1_structure | SCD1 структура для transactions создана успешно
+2026-03-25 15:07:53,838 | INFO | safe_load_to_sql | Успешно загружено: banking.tmp_transactions
+2026-03-25 15:07:53,848 | INFO | move_to_archive | Файл перемещен в архив: archive\transactions_03032021.txt.backup
+2026-03-25 15:07:53,938 | INFO | transfer_data_to_main_table | Перенесено 15780 строк из tmp_transactions в transactions
+2026-03-25 15:07:54,121 | INFO | sql2sql | Файл fraud_report.sql успешно выполнен
+2026-03-25 15:07:54,175 | INFO | drop_tmp_tables | Таблицы tmp_ успешно удалены
